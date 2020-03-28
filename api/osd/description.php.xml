@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>Пикабу</ShortName>
+    <Description>Пикабу</Description>
+    <Url type="application/opensearchdescription+xml" rel="self" template="https://pikabu.ru/api/osd/description.php" />
+    <Url type="text/html" method="get" template="https://pikabu.ru/search?q={searchTerms}"/>
+    <Url type="application/x-suggestions+json" method="get" template="https://pikabu.ru/api/osd/suggestion.php?q={searchTerms}" />
+    <Image height="16" width="16" type="image/x-icon">https://cs.pikabu.ru/assets/favicon.ico</Image>
+    <Image height="76" width="76" type="image/png">https://cs.pikabu.ru/mobile/img/apple-touch-icon-76x76.png</Image>
+</OpenSearchDescription>
